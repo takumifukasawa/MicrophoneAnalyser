@@ -1,0 +1,13 @@
+extends /layout/_default-layout
+
+prepend config-block
+  - page_name = ''
+
+//- append stylesheet-block
+
+//- append javascript-block
+
+block content-block
+  button.js-start-button start
+  br
+  canvas.js-canvas(width="600" height="200")
