@@ -13,7 +13,9 @@ https://takumifukasawa.github.io/MicrophoneAnalyser/
 
 ![sample](https://user-images.githubusercontent.com/947953/80232517-feb5e400-868f-11ea-8f5f-b8c219eaa09b.png)
 
-## Usage
+## Environment
+
+Base project is [webpack-typescript-starter](https://github.com/takumifukasawa/webpack-typescript-starter).
 
 ```
 // install
