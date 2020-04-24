@@ -1,12 +1,11 @@
 # このサイト全体のタイトル
-site_name: webpack-typescript-starter
+site_name: MicrophoneAnalyser
 
 # meta description（og:description・twitter:descriptionでも使用）
-description: webpack-typescript-starter web page.
+description: MicrophoneAnalyser web page.
 
 # meta keywords
 keywords: []
-
 # カノニカル・og:urlなどで使われる、このサイトのURL
 # （複数ページあるサイトでは、全てに同じURLを入れないように）
 # url: http://example.com/
