@@ -1,0 +1,4 @@
+BASE_DIR: /
+IMG_DIR: /img
+SRC: ./src
+DEST: ./docs

@@ -1,0 +1,49 @@
+{
+  "name": "MicrophoneAnalyser",
+  "version": "0.0.0",
+  "description": "MicrophoneAnalyser development.",
+  "author": "takumifukasawa",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --inline --open --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.2",
+    "css-mqpacker": "^7.0.0",
+    "extract-text-webpack-plugin": "next",
+    "file-loader": "^6.0.0",
+    "glob": "^7.1.6",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "node-sass": "^4.14.0",
+    "portfinder": "^1.0.25",
+    "postcss-loader": "^3.0.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "read-config": "^2.0.0",
+    "reset.css": "^2.0.2",
+    "sass-loader": "^8.0.2",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2",
+    "webpack-route-data-mapper": "^2.2.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  }
+}
