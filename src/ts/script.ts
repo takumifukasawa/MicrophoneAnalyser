@@ -46,7 +46,6 @@ const tick = () => {
 };
 
 startButton.addEventListener("click", async () => {
-  console.log("clicked");
   audioContext = new (window.AudioContext || window.webkitAudioContext)();
   await microphoneAnalyser.getMedia();
   const analyserOptions: AnalyserOptions = {
@@ -55,8 +54,6 @@ startButton.addEventListener("click", async () => {
     maxDecibels: -10,
     smoothTimeConstant: 0.85,
   };
-  console.log(audioContext);
   microphoneAnalyser.connectContext(audioContext, analyserOptions);
   requestAnimationFrame(tick);
-  console.log("begin loop");
 });
