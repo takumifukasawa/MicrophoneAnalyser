@@ -1,9 +1,3 @@
-// declare global {
-//   interface Window {
-//     webkitAudioContext: typeof AudioContext;
-//   }
-// }
-
 import { AnalyserOptions, MicrophoneAnalyser } from "./MicrophoneAnalyser";
 
 const audioElem: HTMLMediaElement = document.querySelector(".js-audio");
