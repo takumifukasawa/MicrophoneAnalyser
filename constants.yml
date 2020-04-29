@@ -1,4 +1,4 @@
 BASE_DIR: /
 SRC: ./src
+PUBLIC_PATH: ''
 DEST: ./docs
-ASSET_BASE_DIR: ./
